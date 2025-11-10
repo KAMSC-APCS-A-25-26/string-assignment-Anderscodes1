@@ -5,7 +5,7 @@ public class WordCensor
     public static void main(String[] args)
     {    
         Scanner sc = new Scanner(System.in);
-        System.out.print("Example input: ");
+        System.out.println("Example input: ");
         String word = sc.nextLine();
         
         String word1 = word.replace("oops","***");
