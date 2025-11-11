@@ -23,8 +23,7 @@ public class PalindromeChecker
         int start = 0;
         int end = word.length() - 1;
         boolean palindrome = false;
-        
->>>>>>> 74ca9e75251234c056a5d630df578baa2a5bca69
+
         for (int i=0; i<word.length(); i++)
         {
             if (word.charAt(i) == word.charAt(word.length() - i - 1))
@@ -35,11 +34,7 @@ public class PalindromeChecker
                 palindrome = false;
             }
         }
-<<<<<<< HEAD
 
-=======
-        
->>>>>>> 74ca9e75251234c056a5d630df578baa2a5bca69
         if (palindrome)
         {
             System.out.print(word + " is a palindrome!");
@@ -47,7 +42,6 @@ public class PalindromeChecker
         else {
             System.out.print(word + " is NOT a palindrome.");
         }
-<<<<<<< HEAD
 
 
 
@@ -68,7 +62,5 @@ public class PalindromeChecker
         //       "<original> is a palindrome"
         //       "<original> is not a palindrome"
         //       where <original> is exactly what the user typed (preserve casing).
-=======
->>>>>>> 74ca9e75251234c056a5d630df578baa2a5bca69
     }
 }
