@@ -2,9 +2,9 @@ import java.util.Scanner;
 
 public class WordCensor {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner Scanner = new Scanner(System.in);
         System.out.print("Example input:  ");
-        String word = sc.nextLine();
+        String word = Scanner.nextLine();
 
         String word1 = word.replace("oops","***");
         String word2 = word1.replace("nuts","***");
