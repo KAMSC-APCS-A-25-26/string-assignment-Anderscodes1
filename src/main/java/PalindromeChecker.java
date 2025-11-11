@@ -1,17 +1,5 @@
 import java.util.Scanner;
 
-<<<<<<< HEAD
-public class PalindromeChecker {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter a word: ");
-        String word = sc.nextLine();
-
-        int start = 0;
-        int end = word.length() - 1;
-        boolean palindrome = false;
-
-=======
 public class PalindromeChecker
 {
     public static void main(String[] args)
