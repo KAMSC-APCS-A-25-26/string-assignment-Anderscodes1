@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class WordCensor {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Example input: ");
+        System.out.print("Example input: ");
         String word = sc.nextLine();
 
         String word1 = word.replace("oops","***");
